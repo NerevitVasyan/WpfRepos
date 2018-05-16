@@ -33,7 +33,7 @@
                 Not Hello
             </ComboBoxItem>
         </ComboBox>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="78,35,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
+        <Button  Content="Button" Grid.Row="2" Background="Aqua" />
 
     </Grid>
 </Window>
