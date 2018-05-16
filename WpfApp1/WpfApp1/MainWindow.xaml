@@ -24,8 +24,15 @@
         </Grid.RowDefinitions>
 
         <Button Content="Hello" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="Button_Click"></Button>
-        <GridSplitter Grid.Column="1" Grid.RowSpan="6" Width="5" Background="Black"></GridSplitter>
-        
+        <GridSplitter Grid.Column="1" Grid.RowSpan="6" Width="5" HorizontalAlignment="Stretch" Background="Black"></GridSplitter>
+        <ComboBox>
+            <ComboBoxItem>
+                Hello
+            </ComboBoxItem>
+            <ComboBoxItem TextBlock.FontSize="25">
+                Not Hello
+            </ComboBoxItem>
+        </ComboBox>
         
     </Grid>
 </Window>
